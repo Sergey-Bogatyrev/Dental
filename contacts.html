@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="30x29" href="assets/img/favicon.png" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Roboto:wght@400;500;700&family=Rubik:wght@300;500&display=swap&_v=20220621104353" rel="stylesheet" />
+  <!--  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?_v=20220621104353" />
+  <link rel="stylesheet" href="assets/css/style.min.css?_v=20220621104353" />
+  <title>About us</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__container">
+    <nav class="header__nav">
+      <a class="header__link" id="about" href="about.html">About</a>
+      <a class="header__link" id="doctor" href="doctors.html">Doctor</a>
+      <a class="header__link" id="blog" href="blogs.html">Blog</a>
+      <a class="header__link" id="contact" href="contacts.html"><p>Contact</p></a>
+    </nav>
+    <a class="header__logo-link" href="index.html">
+      <div class="header__logo-item-1">
+        <svg class="header__logo-img-1">
+          <use xlink:href="assets/sprite/sprite.svg#logo_tooth"></use>
+        </svg>
+      </div>
+      <div class="header__logo-item-2">
+        <svg class="header__logo-img-2">
+          <use xlink:href="assets/sprite/sprite.svg#logo_text"></use>
+        </svg>
+      </div>
+    </a>
+    <nav class="header__social-nav">
+      <a href="#" class="header__social-link">
+        <svg class="header__social-svg">
+          <use xlink:href="assets/sprite/sprite.svg#vk"></use>
+        </svg>
+      </a>
+      <a href="#" class="header__social-link">
+        <svg class="header__social-svg">
+          <use xlink:href="assets/sprite/sprite.svg#whatsapp"></use>
+        </svg>
+      </a>
+      <a href="#" class="header__social-link">
+        <svg class="header__social-svg">
+          <use xlink:href="assets/sprite/sprite.svg#telegram"></use>
+        </svg>
+      </a>
+      <a href="#" class="header__social-link">
+        <svg class="header__social-svg">
+          <use xlink:href="assets/sprite/sprite.svg#youtube"></use>
+        </svg>
+      </a>
+    </nav>
+    <div class="header__burger">
+      <div class="header__burger-bar header__burger-bar_1"></div>
+      <div class="header__burger-bar header__burger-bar_2"></div>
+      <div class="header__burger-bar header__burger-bar_3"></div>
+    </div>
+  </div>
+</header>
+ <div class="navmob">
+  <nav class="navmob__items">
+    <a class="navmob__items-link" href="about.html">About</a>
+    <a class="navmob__items-link" href="doctors.html">Doctor</a>
+    <a class="navmob__items-link" href="blogs.html">Blog</a>
+    <a class="navmob__items-link" href="contacts.html">Contact</a>
+  </nav>
+</div>
+
+      <main class="main">
+        <!-- //? BREADCRUMBS -->
+        <section class="breadcrumbs">
+          <div class="breadcrumbs__container">
+            <div class="breadcrumbs__title">Our contact</div>
+            <div class="breadcrumbs__box">
+              <a class="breadcrumbs__link" href="index.html">Home /</a>
+              <p class="breadcrumbs__text">contact</p>
+            </div>
+          </div>
+        </section>
+        <!-- //? DETAILS -->
+        <section class="details">
+          <div class="details__container">
+            <div class="details__box">
+              <div class="details__item">
+                <picture class="details__item-pic">
+                  <svg class="details__item-svg">
+                    <use xlink:href="assets/sprite/sprite.svg#details1"></use>
+                  </svg>
+                </picture>
+                <h3 class="details__item-title">address</h3>
+                <p class="details__item-text">A-655 Karol bagh, Near</p>
+                <p class="details__item-text">Delhi 93 – <span>Map</span></p>
+              </div>
+              <div class="details__item">
+                <picture class="details__item-pic">
+                  <svg class="details__item-svg">
+                    <use xlink:href="assets/sprite/sprite.svg#details2"></use>
+                  </svg>
+                </picture>
+                <h3 class="details__item-title">contact info</h3>
+                <div class="details__item-info">
+                  <p class="details__item-text">Email :</p>
+                  <a class="details__item-link" href="mailto:techwero@gmail.com">techwero@gmail.com</a>
+                </div>
+                <div class="details__item-info">
+                  <p class="details__item-text">Phone :</p>
+                  <a class="details__item-link" href="tel:+61383766284">+61 3 8376 6284</a>
+                </div>
+              </div>
+              <div class="details__item">
+                <picture class="details__item-pic">
+                  <svg class="details__item-svg">
+                    <use xlink:href="assets/sprite/sprite.svg#details3"></use>
+                  </svg>
+                </picture>
+                <h3 class="details__item-title">Open Hour</h3>
+                <p class="details__item-text">Monday – Friday : 09:00 – 20:00</p>
+                <p class="details__item-text">Sunday & Saturday: 10:30 – 22:00</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- //? MAP -->
+        <div class="map">
+          <div class="map__container">
+            <div class="map__box">
+              <iframe
+                class="map__iframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7007.586446514265!2d77.2161975!3d28.5759713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce25fbd0e4e01%3A0x6d5b177aa123e662!2s2028%2F67%2C%20Pilanji%2C%20Rishi%20Nagar%2C%20South%20Extension%20I%2C%20New%20Delhi%2C%20Delhi%20110049%2C%20India!5e0!3m2!1sen!2sru!4v1650032792468!5m2!1sen!2sru"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- //? FORM -->
+        <section class="form">
+          <div class="form__container">
+            <h3 class="form__title">Get in touch</h3>
+            <form class="form__box" action="#">
+              <div class="form__box-item form__box-item_name">
+                <label class="form__box-label" for="name">Your name</label>
+                <input class="form__box-input" type="text" id="name" name="name" />
+              </div>
+              <div class="form__box-item form__box-item_email">
+                <label class="form__box-label" for="email">Your email</label>
+                <input class="form__box-input" type="text" id="email" name="email" />
+              </div>
+              <div class="form__box-item form__box-item_subject">
+                <label class="form__box-label" for="subject">Subject</label>
+                <input class="form__box-input" type="text" id="subject" name="subject" />
+              </div>
+              <div class="form__box-item form__box-item_message">
+                <label class="form__box-label" for="message">Your Message</label>
+                <textarea class="form__box-textarea" type="text" id="message" name="message"></textarea>
+              </div>
+              <button class="form__box-btn" type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+        <!-- //? CLIENTS -->
+        <section class="clients">
+          <div class="clients__container">
+            <div class="clients__header">
+              <h4 class="clients__header-title">Our Clients Speak</h4>
+              <p class="clients__header-text">We have been working with clients around the world</p>
+            </div>
+            <div class="clients__calousel">
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+              <div class="clients__calousel-item">
+                <div class="clients__calousel-info">
+                  <h6 class="clients__calousel-title">Lorem Ipsum is simply dummy text</h6>
+                  <p class="clients__calousel-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                </div>
+                <picture class="clients__calousel-pic">
+                  <img class="clients__calousel-img" src="assets/img/client.png" alt="image" />
+                </picture>
+                <p class="clients__calousel-name">Jane Cooper</p>
+                <p class="clients__calousel-position">CEO at ABC Corporation</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__about">
+      <a class="footer__logo-link" href="index.html">
+        <div class="footer__logo-item-1">
+          <svg class="footer__logo-img-1">
+            <use xlink:href="assets/sprite/sprite.svg#logo_tooth"></use>
+          </svg>
+        </div>
+        <div class="footer__logo-item-2">
+          <svg class="footer__logo-img-2">
+            <use xlink:href="assets/sprite/sprite.svg#logo_text"></use>
+          </svg>
+        </div>
+      </a>
+      <h2 class="footer__title">About us</h2>
+      <p class="footer__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="footer__contacts">
+      <div class="footer__contacts-item">
+        <h3 class="footer__contacts-title">Business hours:</h3>
+        <p class="footer__contacts-text">Monday to Saturday 9:30 am - 4:30 pm</p>
+      </div>
+      <div class="footer__contacts-item">
+        <h3 class="footer__contacts-title">Address:</h3>
+        <p class="footer__contacts-text">A-67 south Ex Delhi-11002</p>
+      </div>
+      <div class="footer__contacts-item">
+        <h3 class="footer__contacts-title">Email:</h3>
+        <a class="footer__contacts-link" href="mailto:abc@abc.com">abc@abc.com</a>
+      </div>
+      <div class="footer__contacts-item">
+        <h3 class="footer__contacts-title">Phone:</h3>
+        <a class="footer__contacts-link" href="tel:18004584954455">1800 - 458495-4455</a>
+      </div>
+    </div>
+    <div class="footer__social">
+      <h2 class="footer__social-title">Stay connected</h2>
+      <nav class="footer__social-nav">
+        <a href="#" class="footer__social-link">
+          <picture class="footer__social-pic">
+            <svg class="footer__social-svg">
+              <use xlink:href="assets/sprite/sprite.svg#vk"></use>
+            </svg>
+          </picture>
+          <p class="footer__social-text">VK</p>
+        </a>
+        <a href="#" class="footer__social-link">
+          <picture class="footer__social-pic">
+            <svg class="footer__social-svg">
+              <use xlink:href="assets/sprite/sprite.svg#whatsapp"></use>
+            </svg>
+          </picture>
+          <p class="footer__social-text">WhatsApp</p>
+        </a>
+        <a href="#" class="footer__social-link">
+          <picture class="footer__social-pic">
+            <svg class="footer__social-svg">
+              <use xlink:href="assets/sprite/sprite.svg#telegram"></use>
+            </svg>
+          </picture>
+          <p class="footer__social-text">Telegram</p>
+        </a>
+        <a href="#" class="footer__social-link">
+          <picture class="footer__social-pic">
+            <svg class="footer__social-svg">
+              <use xlink:href="assets/sprite/sprite.svg#youtube"></use>
+            </svg>
+          </picture>
+          <p class="footer__social-text">YouTube</p>
+        </a>
+      </nav>
+    </div>
+    <div class="footer__email">
+      <h2 class="footer__email-title">Newsletter</h2>
+      <p class="footer__email-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <form class="footer__email-form" action="#">
+        <input class="footer__email-input" type="email" name="email" placeholder="Enter Email ID" />
+        <button class="footer__email-btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220621104353"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js?_v=20220621104353"></script>
+    <script src="assets/js/app.min.js?_v=20220621104353"></script>
+  </body>
+</html>
